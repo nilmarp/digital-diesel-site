@@ -1,0 +1,123 @@
+header {
+    background-color: black;
+    /* Define a cor de fundo preta */
+    color: white;
+    /* Define a cor do texto para branco para contraste */
+    margin: 0;
+    /* Remove a margem padrão do corpo */
+    height: fit-content;
+    font-family: Arial, sans-serif;
+    /* Define uma fonte padrão */
+}
+
+header .row {
+    height: 100px;
+}
+
+header .col-title {
+    font-weight: 600;
+}
+
+header .header-link {
+    font-weight: 600;
+    color: #e51c26;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: #b8161e;
+    text-decoration: underline;
+}
+
+.imagem {
+    width: 200px;
+    /* Ajusta a largura da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    position: relative;
+}
+
+/*SUBHEADER*/
+subheader .col a {
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+subheader .col a:hover {
+    color: #b8161e;
+    text-decoration: underline;
+}
+
+/*MAIN*/
+#f-main .row .img-fluid {
+    transition: transform 0.3s ease;
+    /* Aplica a transição suave na imagem */
+}
+
+#f-main .row .img-fluid:hover {
+    transform: scale(1.1);
+    /* Aumenta a escala da imagem */
+    cursor: pointer;
+}
+
+/*about us*/
+#about-us {
+    height: 600px;
+    background-size: cover;
+    background-position: 20% center;
+    background-image: url(../Assets/about-us-background.jpg);
+}
+
+#about-us p {
+    width: 350px;
+    height: auto;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16pt;
+    transition: transform 0.3s ease;
+}
+
+#about-us p:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#about-us p img {
+    width: 250px;
+}
+
+/*footer*/
+footer {
+    padding: 10px;
+}
+
+footer img {
+    width: 200px;
+}
+
+/* === PRODUCTS === */
+
+.store-card {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.store-card:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT */
+.no-resize {
+    resize: none;
+}
+
+.no-border-table td{
+    background-color: #E9ECEF !important;
+}
+
+.no-border-table th {
+    background-color: #E9ECEF !important;
+}
