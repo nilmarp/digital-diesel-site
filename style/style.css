@@ -1,13 +1,9 @@
 header {
     background-color: black;
-    /* Define a cor de fundo preta */
     color: white;
-    /* Define a cor do texto para branco para contraste */
     margin: 0;
-    /* Remove a margem padrão do corpo */
     height: fit-content;
     font-family: Arial, sans-serif;
-    /* Define uma fonte padrão */
 }
 
 header .row {
@@ -37,7 +33,7 @@ header .header-link {
     position: relative;
 }
 
-/*SUBHEADER*/
+/*=-=-=-=  SUBHEADER =-=-=-= */
 subheader .col a {
     text-decoration: none;
     font-size: 13pt;
@@ -48,7 +44,7 @@ subheader .col a:hover {
     text-decoration: underline;
 }
 
-/*MAIN*/
+/*=-=-=-= MAIN =-=-=-= */
 #f-main .row .img-fluid {
     transition: transform 0.3s ease;
     /* Aplica a transição suave na imagem */
@@ -60,7 +56,7 @@ subheader .col a:hover {
     cursor: pointer;
 }
 
-/*about us*/
+/*=-=-=-= ABOUT-US =-=-=-=*/
 #about-us {
     height: 600px;
     background-size: cover;
@@ -88,7 +84,7 @@ subheader .col a:hover {
     width: 250px;
 }
 
-/*footer*/
+/*=-=-=-= FOOTER =-=-=-=*/
 footer {
     padding: 10px;
 }
@@ -97,8 +93,7 @@ footer img {
     width: 200px;
 }
 
-/* === PRODUCTS === */
-
+/* =-=-=-= PRODUCTS PAGE =-=-=-= */
 .store-card {
     width: 300px;
     cursor: pointer;
@@ -109,7 +104,7 @@ footer img {
     transform: scale(1.05);
 }
 
-/* CONTACT */
+/* =-=-=-= CONTACT PAGE =-=-=-=*/
 .no-resize {
     resize: none;
 }
@@ -121,3 +116,9 @@ footer img {
 .no-border-table th {
     background-color: #E9ECEF !important;
 }
+
+#embed-map {
+    height: 450px;
+}
+
+/* =-=-=-= SERVICES PAGE =-=-=-=*/
